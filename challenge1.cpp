@@ -1,5 +1,5 @@
 #include <stdio.h>
-void divide(int x) {
+void ThreeFive(int x) {
   if( x % 3 ==0 and x % 5==0){
   	printf("ThreeFive\n");
   }
@@ -17,7 +17,7 @@ void divide(int x) {
 int main(){
 	int i;
 	for(i=1; i<=100; i++){
-		divide(i);
+		ThreeFive(i);
 	}
 	
 
